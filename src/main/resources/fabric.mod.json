@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fv",
+  "version": "${version}",
+  "name": "FakeVanilla",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/FakeVanilla"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.fv.FakeVanilla"
+    ]
+  },
+  "mixins": [
+    "fv.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
